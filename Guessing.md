@@ -7,4 +7,3 @@ Start[Start Game!] -.-> Number{Is it the right number?}
     CHOICE1 -.-> Number
     Number -.- YES -.-.-.-> ANSWER2[CONGRATS, YOU WON!]
 ```
-##
