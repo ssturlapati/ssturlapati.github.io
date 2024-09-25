@@ -1,9 +1,9 @@
 # Guessing Game Flowchart 
 ```mermaid
 flowchart TD
-A[Start Game!] --> B{Is it the right number?}
-    B -- NO --> C[WRONG, THINK ABOUT IT AGAIN!]
-    C --> D[GUESS AGAIN!]
-    D --> B
-    B -- YES ----> E[CONGRATS, YOU WON!]
+Start[Start Game!] --> Number{Is it the right number?}
+    Number -- NO --> ANSWER1[WRONG, THINK ABOUT IT AGAIN!]
+    ANSWER1 --> CHOICE1[GUESS AGAIN!]
+    CHOICE1 --> Number
+    Number -- YES ----> ANSWER2[CONGRATS, YOU WON!]
 ```
